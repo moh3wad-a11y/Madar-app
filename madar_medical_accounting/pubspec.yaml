@@ -1,0 +1,65 @@
+name: madar_medical_accounting
+description: "Madar Medical Center Accounting - offline bilingual (Arabic/English) accounting app for medical centers."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Database (SQLCipher-encrypted SQLite - protects revenue/expense/patient data at rest)
+  sqflite_sqlcipher: ^3.1.0
+  path: ^1.9.0
+  path_provider: ^2.1.3
+
+  # Formatting / i18n
+  intl: any
+
+  # Security
+  flutter_secure_storage: ^9.2.2
+  crypto: ^3.0.3
+
+  # Charts
+  fl_chart: ^0.68.0
+
+  # Export
+  pdf: ^3.11.0
+  printing: ^5.13.1
+  excel: ^4.0.3
+  csv: ^6.0.0
+  archive: ^3.6.1
+
+  # Files / sharing / attachments
+  share_plus: ^9.0.0
+  file_picker: ^8.0.5
+  image_picker: ^1.1.2
+  permission_handler: ^11.3.1
+  open_filex: ^4.5.0
+  uuid: ^4.4.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Variable.ttf
