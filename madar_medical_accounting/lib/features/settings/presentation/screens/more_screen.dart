@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:madar_medical_accounting/l10n/generated/app_localizations.dart';
 import '../../../../core/security/auth_guard.dart';
 import '../../../../shared/widgets/role_gate.dart';
 import '../../../doctors/presentation/screens/doctor_list_screen.dart';

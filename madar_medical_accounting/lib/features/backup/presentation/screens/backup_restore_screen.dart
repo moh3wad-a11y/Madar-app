@@ -1,6 +1,6 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:madar_medical_accounting/l10n/generated/app_localizations.dart';
 import 'package:share_plus/share_plus.dart';
 import '../../../../core/restart_widget.dart';
 import '../../../../core/utils/date_formatter.dart';

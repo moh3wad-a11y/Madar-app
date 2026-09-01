@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:madar_medical_accounting/l10n/generated/app_localizations.dart';
 import '../../features/dashboard/presentation/screens/dashboard_screen.dart';
 import '../../features/revenue/presentation/screens/revenue_list_screen.dart';
 import '../../features/expenses/presentation/screens/expense_list_screen.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:madar_medical_accounting/l10n/generated/app_localizations.dart';
 
 /// Used ONLY by modules whose screen hasn't been built yet in the current
 /// delivery phase. It is not a fake or simulated feature - it says plainly
