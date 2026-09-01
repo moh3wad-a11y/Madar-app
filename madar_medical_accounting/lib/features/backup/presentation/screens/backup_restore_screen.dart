@@ -36,7 +36,7 @@ class _BackupRestoreScreenState extends State<BackupRestoreScreen> {
 
   Future<void> _pickAndRestore() async {
     final l10n = AppLocalizations.of(context)!;
-    final result = await FilePicker.platform.pickFiles(
+    final result = await FilePicker.pickFiles(
       type: FileType.custom,
       allowedExtensions: ['zip'],
     );
