@@ -38,7 +38,7 @@ dependencies:
   archive: ^3.6.1
 
   # Files / sharing / attachments
-  share_plus: ^9.0.0
+  share_plus: ^12.0.2
   file_picker: any
   image_picker: ^1.1.2
   permission_handler: ^11.3.1
