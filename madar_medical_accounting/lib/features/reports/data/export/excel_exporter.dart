@@ -51,12 +51,12 @@ class ExcelExporter {
       final totalsRow = <xl.CellValue>[];
       for (var i = 0; i < table.columns.length; i++) {
         if (i == 0) {
-          totalsRow.add(const xl.TextCellValue('Total'));
+          totalsRow.add(xl.TextCellValue('Total'));
         } else if (table.columns[i].isNumeric) {
           final columnLetter = _columnLetter(i);
           totalsRow.add(xl.FormulaCellValue('SUM($columnLetter$firstDataRow:$columnLetter$lastDataRow)'));
         } else {
-          totalsRow.add(const xl.TextCellValue(''));
+          totalsRow.add(xl.TextCellValue(''));
         }
       }
       sheet.appendRow(totalsRow);
